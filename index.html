@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/icon.png"image/x-icon">
+
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Css -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <title>Pokedex</title>
+</head>
+<body>
+
+    <section>
+        <div class="container">
+            <h1>Pokedex</h1>
+
+            <ol class="pokemons"></ol>
+            
+            <div class="pagination">
+                <button class="more" type="button">More</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="fade" class="hide" onclick="toggleModal()"></div>
+
+    <section id="mod" class="hide"></section>
+    
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/modal.js"></script>
+    <script src="assets/js/model-api.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
