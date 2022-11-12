@@ -161,7 +161,7 @@ function stats(pokemon) {
 
                 <div class="lin">
                     <div class="progress">
-                        <div class="stats" style="--progress: ${pokemon.stats[0]}"'></div>
+                        <div class="stats" style="--progress: ${(5*pokemon.stats[0])/8}"'></div>
                     </div>
                 </div>
             </li>
@@ -171,7 +171,7 @@ function stats(pokemon) {
 
                 <div class="lin">
                     <div class="progress">
-                        <div class="stats" style="--progress: ${pokemon.stats[1]}"'></div>
+                        <div class="stats" style="--progress: ${(5*pokemon.stats[1])/8}"'></div>
                     </div>
                 </div>
             </li>
@@ -181,7 +181,7 @@ function stats(pokemon) {
 
                 <div class="lin">
                     <div class="progress">
-                        <div class="stats" style="--progress: ${pokemon.stats[2]}"'></div>
+                        <div class="stats" style="--progress: ${(5*pokemon.stats[2])/8}"'></div>
                     </div>
                 </div>
             </li>
@@ -191,7 +191,7 @@ function stats(pokemon) {
 
                 <div class="lin">
                     <div class="progress">
-                        <div class="stats" style="--progress: ${pokemon.stats[3]}"'></div>
+                        <div class="stats" style="--progress: ${(5*pokemon.stats[3])/8}"'></div>
                     </div>
                 </div>
                 
@@ -202,7 +202,7 @@ function stats(pokemon) {
 
                 <div class="lin">
                     <div class="progress">
-                        <div class="stats" style="--progress: ${pokemon.stats[4]}"'></div>
+                        <div class="stats" style="--progress: ${(5*pokemon.stats[4])/8}"'></div>
                     </div>
                 </div>
             </li>
@@ -212,7 +212,7 @@ function stats(pokemon) {
 
                 <div class="lin">
                     <div class="progress">
-                        <div class="stats" style="--progress: ${pokemon.stats[5]}"'></div>
+                        <div class="stats" style="--progress: ${(5*pokemon.stats[5])/8}"'></div>
                     </div>
                 </div>
             </li>
@@ -222,7 +222,7 @@ function stats(pokemon) {
 
                 <div class="lin">
                     <div class="progress">
-                        <div class="stats" style="--progress: ${total/6}"'></div>
+                        <div class="stats" style="--progress: ${total/9.6}"'></div>
                     </div>
                 </div>
             </li>

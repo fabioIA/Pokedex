@@ -133,6 +133,7 @@ nav {
 
 nav > button {
     margin-top: 2rem;
+    cursor: pointer;
 }
 
 .result {
@@ -149,7 +150,7 @@ nav > button {
 }
 
 .stats{
-    --progress: 10;
+    --progress: 150;
     height: 12px;
     border-radius: 3px;
     display: flex;
@@ -174,7 +175,7 @@ nav > button {
     margin-top: 3px;
     padding: 5px;
     transition: all 200ms;
-    cursor: pointer;
+    cursor: default;
 }
 
 .allStats b {
